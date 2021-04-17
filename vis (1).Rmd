@@ -18,7 +18,7 @@ library(dplyr)
 library(corrplot)
 ```
 
-Ensuite, on commence par la partie client, notre interface contenira 2 partie, la partie gauche contient les inputs ou l'utilisateur pourra choisir le fihier, on affiche les statistiques de la fonction, les cordonnées.
+Ensuite, on commence par la partie client, notre interface contiendra 2 partie, la partie gauche contient les inputs ou l'utilisateur pourra choisir le fihier, on affiche les statistiques de la fonction, les cordonnÃ©es.
 Sur la partie droite de l'interface on a quatre tabulation d'affiche: statistics, scatter plot, PCA, k_means:
 ```{r }
 ui <- fluidPage(
@@ -58,7 +58,7 @@ ui <- fluidPage(
 ```
 
 Dans la partie serveur, on dynamise notre interface avec la fonction reactive,
-et on définit chaque partie déclaré dans la partie UI avec les fonctionalités
+et on dÃ©finit chaque partie dÃ©clarÃ© dans la partie UI avec les fonctionalitÃ©s
 convenables.
 ```{r }
 server <-function(input, output, session) {
