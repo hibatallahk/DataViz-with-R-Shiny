@@ -18,7 +18,7 @@ library(dplyr)
 library(corrplot)
 ```
 
-Ensuite, on commence par la partie client, notre interface contiendra 2 partie, la partie gauche contient les inputs ou l'utilisateur pourra choisir le fihier, on affiche les statistiques de la fonction, les cordonnées.
+Ensuite, on commence par la partie client, notre interface contiendra 2 partie, la partie gauche contient les inputs ou l'utilisateur pourrait choisir le fihier, on affiche les statistiques de la fonction, les cordonnées.
 Sur la partie droite de l'interface on a quatre tabulation d'affiche: statistics, scatter plot, PCA, k_means:
 ```{r }
 ui <- fluidPage(
